@@ -1,0 +1,9 @@
+{
+	"name": "traning1",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d293fb71-6768-46cb-bd42-5297b47d8da0",
+		"tenantId": "2f5e78d5-186e-486d-8d05-68ac9afde38a"
+	}
+}
