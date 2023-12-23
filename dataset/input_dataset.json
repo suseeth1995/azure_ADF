@@ -1,0 +1,50 @@
+{
+	"name": "input_dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Sheet1",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Workbook1.xlsx",
+				"container": "source"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "name",
+				"type": "String"
+			},
+			{
+				"name": "english",
+				"type": "String"
+			},
+			{
+				"name": "tamil",
+				"type": "String"
+			},
+			{
+				"name": "maths",
+				"type": "String"
+			},
+			{
+				"name": "science",
+				"type": "String"
+			},
+			{
+				"name": "social",
+				"type": "String"
+			},
+			{
+				"name": "total",
+				"type": "String"
+			}
+		]
+	}
+}
