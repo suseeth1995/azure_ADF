@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "traning1"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"Azure_add_column_connectionString": {
+			"value": ""
+		},
+		"dest_data_lake2_connectionString": {
+			"value": ""
+		},
+		"source_data_lake2_connectionString": {
+			"value": ""
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/0790cd4a-a2e5-4340-a7a3-7b4d07d7473e/resourceGroups/course1/providers/Microsoft.Storage/storageAccounts/sourceatalake1"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
